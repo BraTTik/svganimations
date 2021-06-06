@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="250"
+   height="250"
+   viewBox="0 0 66.145833 66.145833"
+   version="1.1"
+   id="svg2891"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2888">
+    <rect
+       x="46.58725"
+       y="90.557239"
+       width="155.98877"
+       height="66.478435"
+       id="rect8347" />
+  </defs>
+  <g
+     id="layer1">
+    <ellipse
+       style="fill:#ffff00;fill-opacity:0;stroke:#000042;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.979757"
+       id="path2919"
+       cx="33.199486"
+       cy="33.008144"
+       rx="32.262814"
+       ry="32.315666" />
+  </g>
+  <g
+     id="layer5">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text8345"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect8347)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.4639px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000001;stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="2.6393688"
+       y="42.479843"
+       id="text8749"><tspan
+         id="tspan8747"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.4639px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.26458333;stroke:#000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="2.6393688"
+         y="42.479843">SVG</tspan></text>
+  </g>
+</svg>
