@@ -1,3 +1,7 @@
+body {
+    background-color: #313131;
+}
+
 svg {
     position: absolute;
     top: 0;
@@ -7,21 +11,54 @@ svg {
     margin: auto;
 }
 
-.line {
+svg rect {
     fill: none;
-    stroke: #000;
+    stroke: #fafafa;
+    stroke-width: 10px;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: 8s outline forwards;
 }
 
-.underline{
-    stroke: #ccc;
+svg line {
+    stroke: #fafafa;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    animation: 4s line forwards;
 }
 
-.overline{
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    transition: all 10s;
+svg path {
+    fill: #fafafa;
+    opacity: 0;
+    animation: 2s fade 1 forwards;
+    animation-delay: 3s;
 }
 
-svg:hover .overline {
-    stroke-dashoffset: 0;
+@keyframes outline {
+    from {
+        stroke-dashoffset: 2000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
+
+@keyframes line {
+    from {
+        stroke-dashoffset: 400;
+    }
+    to {
+        stroke-dashoffset: -260;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
