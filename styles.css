@@ -1,0 +1,27 @@
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.line {
+    fill: none;
+    stroke: #000;
+}
+
+.underline{
+    stroke: #ccc;
+}
+
+.overline{
+    stroke-dasharray: 4000;
+    stroke-dashoffset: 4000;
+    transition: all 10s;
+}
+
+svg:hover .overline {
+    stroke-dashoffset: 0;
+}
